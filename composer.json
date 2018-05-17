@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.0",
         "illuminate/support": "~5.5.0|~5.6.0",
-        "fatonsopa/image-optimizer": "^1.0.4-dev"
+        "fatonsopa/image-optimizer": "dev-dev"
     },
     "require-dev": {
         "orchestra/testbench": "~3.5.0|~3.6.0",
