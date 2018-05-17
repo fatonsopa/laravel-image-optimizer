@@ -59,7 +59,13 @@ class OptimizerChainFactory
           ->toArray();
     }
 
-    public static function getBinaryPath(array $config): string
+    /**
+     * Get binary path
+     * 
+     * @param array $config
+     * @return string|array
+     */
+    public static function getBinaryPath(array $config)
     {
         return $config['binary_path'] ?? '';
     }
