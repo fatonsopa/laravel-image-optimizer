@@ -55,5 +55,7 @@
                 "ImageOptimizer": "Spatie\\LaravelImageOptimizer\\Facades\\ImageOptimizer"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+  "prefer-stable": true
 }
