@@ -1,5 +1,5 @@
 {
-    "name": "fatonsopa/laravel-image-optimizer",
+    "name": "spaite/laravel-image-optimizer",
     "description": "Optimize images in your Laravel app",
     "keywords": [
         "spatie",
@@ -15,10 +15,16 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fatonsopa/image-optimizer"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "illuminate/support": "~5.5.0|~5.6.0",
-        "fatonsopa/image-optimizer": "dev-dev"
+        "spatie/image-optimizer": "dev-dev"
     },
     "require-dev": {
         "orchestra/testbench": "~3.5.0|~3.6.0",
